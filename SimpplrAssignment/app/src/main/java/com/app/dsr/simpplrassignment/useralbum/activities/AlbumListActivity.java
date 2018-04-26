@@ -19,11 +19,11 @@ public class AlbumListActivity extends BaseNavigationDrawerActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_album_list);
 
-        AuthenticationRequest.Builder builder = new AuthenticationRequest.Builder(ApiConstants.CLIENT_ID, AuthenticationResponse.Type.TOKEN, RestUrlsUtils.userAuthenticationURL());
-        builder.setScopes(new String[]{"user-read-private", "streaming"});
-        AuthenticationRequest request = builder.build();
-
-        AuthenticationClient.openLoginActivity(this, ApiConstants.AUTH_REQUEST_CODE , request);
+//        AuthenticationRequest.Builder builder = new AuthenticationRequest.Builder(ApiConstants.CLIENT_ID, AuthenticationResponse.Type.TOKEN, RestUrlsUtils.userAuthenticationURL());
+//        builder.setScopes(new String[]{"user-read-private", "streaming"});
+//        AuthenticationRequest request = builder.build();
+//
+//        AuthenticationClient.openLoginActivity(this, ApiConstants.AUTH_REQUEST_CODE , request);
     }
 
     @Override

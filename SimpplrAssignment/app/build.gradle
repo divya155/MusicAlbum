@@ -42,6 +42,14 @@ dependencies {
     implementation 'javax.inject:javax.inject:1'
     //retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation ('com.squareup.retrofit2:retrofit:2.1.0') {
+        // exclude Retrofit’s OkHttp dependency module and define your own module import
+        exclude module: 'okhttp'
+    }
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
     //spotify
     // This library handles authentication and authorization
     implementation 'com.spotify.android:auth:1.0.0-alpha'
