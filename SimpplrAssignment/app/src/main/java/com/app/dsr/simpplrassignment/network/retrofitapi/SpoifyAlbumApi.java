@@ -3,10 +3,12 @@ package com.app.dsr.simpplrassignment.network.retrofitapi;
 import com.app.dsr.simpplrassignment.network.model.Album;
 import com.app.dsr.simpplrassignment.network.model.Albums;
 import com.app.dsr.simpplrassignment.network.model.Pager;
+import com.app.dsr.simpplrassignment.network.model.Playlist;
 import com.app.dsr.simpplrassignment.network.model.Track;
 
 import java.util.Map;
 
+import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
@@ -18,12 +20,10 @@ public interface SpoifyAlbumApi {
     /**
      * Get Spotify catalog information for a single album.
      *
-     * @param albumId  The Spotify ID for the album.
-     * @param callback Callback method
      * @see <a href="https://developer.spotify.com/web-api/get-album/">Get an Album</a>
      */
-    @GET("/albums/{id}")
-    void getAlbum(@Path("id") String albumId, Callback<Album> callback);
+    @GET("users/{user_id}/playlists")
+    Call<Playlist> getUserAlbum(@Path("user_id") String userID,@Query("limit") String limit,@Query("offset") String offset);
 
     /**
      * Get Spotify catalog information for a single album.
@@ -32,7 +32,7 @@ public interface SpoifyAlbumApi {
      * @return Requested album information
      * @see <a href="https://developer.spotify.com/web-api/get-album/">Get an Album</a>
      */
-    @GET("/albums/{id}")
+    @GET("albums/{id}")
     Album getAlbum(@Path("id") String albumId);
 
     /**

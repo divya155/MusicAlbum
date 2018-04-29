@@ -43,4 +43,24 @@ public class Playlist extends PlaylistBase {
             return new Playlist[size];
         }
     };
+
+    @Override
+    public String toString() {
+        return "Playlist{" +
+                "description='" + description + '\'' +
+                ", followers=" + followers +
+                ", tracks=" + tracks +
+                ", collaborative=" + collaborative +
+                ", external_urls=" + external_urls +
+                ", href='" + href + '\'' +
+                ", id='" + id + '\'' +
+                ", images=" + images +
+                ", name='" + name + '\'' +
+                ", owner=" + owner +
+                ", is_public=" + is_public +
+                ", snapshot_id='" + snapshot_id + '\'' +
+                ", type='" + type + '\'' +
+                ", uri='" + uri + '\'' +
+                '}';
+    }
 }

@@ -6,11 +6,11 @@ import android.os.Parcel;
  * <a href="https://developer.spotify.com/web-api/object-model/#user-object-private">User object (private) model</a>
  */
 public class UserPrivate extends UserPublic {
-    public String birthdate;
-    public String country;
-    public String email;
-    public String product;
 
+    private String email;
+    private String country;
+    private String birthdate;
+    private String product;
 
     @Override
     public int describeContents() {
@@ -31,6 +31,9 @@ public class UserPrivate extends UserPublic {
 
     protected UserPrivate(Parcel in) {
         super(in);
+        this.id = in.readString();
+        this.display_name = in.readString();
+        this.images = in.readParcelable(ClassLoader.getSystemClassLoader());
         this.birthdate = in.readString();
         this.country = in.readString();
         this.email = in.readString();
@@ -46,4 +49,39 @@ public class UserPrivate extends UserPublic {
             return new UserPrivate[size];
         }
     };
+
+    @Override
+    public String toString() {
+        return "UserPrivate{" +
+                "birthdate='" + birthdate + '\'' +
+                ", country='" + country + '\'' +
+                ", email='" + email + '\'' +
+                ", product='" + product + '\'' +
+                super.toString() + '\'' +
+                '}';
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getDisplay_name() {
+        return display_name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public String getBirthdate() {
+        return birthdate;
+    }
+
+    public String getProduct() {
+        return product;
+    }
 }

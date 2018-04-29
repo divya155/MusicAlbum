@@ -1,4 +1,4 @@
-package com.app.dsr.simpplrassignment.network;
+package com.app.dsr.simpplrassignment.utils;
 
 public interface ApiConstants {
 

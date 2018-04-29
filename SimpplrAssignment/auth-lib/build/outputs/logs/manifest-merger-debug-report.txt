@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+	package
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:11-59
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:24:1-53:12
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:25:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:27:22-64
+application
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:29:5-51:19
+activity#com.spotify.sdk.android.authentication.AuthCallbackActivity
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:30:9-44:20
+	android:exported
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:31:13-36
+	android:theme
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:33:13-72
+	android:name
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:32:13-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/com_spotify_sdk_redirect_host+data:scheme:@string/com_spotify_sdk_redirect_scheme
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:34:13-43:29
+action#android.intent.action.VIEW
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:36:17-68
+	android:name
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:37:17-75
+	android:name
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:37:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:38:27-75
+data
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:40:17-42:75
+	android:host
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:42:21-73
+	android:scheme
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:41:21-77
+activity#com.spotify.sdk.android.authentication.LoginActivity
+ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:46:9-49:20
+	android:theme
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:48:13-72
+	android:name
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml:47:13-80
+uses-sdk
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+		ADDED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/honey/Documents/project/divya/MusicAlbum/SimpplrAssignment/auth-lib/src/main/AndroidManifest.xml

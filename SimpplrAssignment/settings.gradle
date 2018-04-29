@@ -1,1 +1,3 @@
 include ':app'
+include ':auth-lib'
+include ':spotify-player-24-noconnect-2.20b'

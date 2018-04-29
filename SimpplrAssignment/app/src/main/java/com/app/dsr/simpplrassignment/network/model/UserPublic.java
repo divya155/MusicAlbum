@@ -10,14 +10,14 @@ import java.util.Map;
  * <a href="https://developer.spotify.com/web-api/object-model/#user-object-public">User object (public) model</a>
  */
 public class UserPublic implements Parcelable {
-    public String display_name;
-    public Map<String, String> external_urls;
-    public Followers followers;
-    public String href;
-    public String id;
-    public List<Image> images;
-    public String type;
-    public String uri;
+    protected String display_name;
+    protected Map<String, String> external_urls;
+    protected Followers followers;
+    protected String href;
+    protected String id;
+    protected List<Image> images;
+    protected String type;
+    protected String uri;
 
     public UserPublic() {
     }
@@ -59,4 +59,50 @@ public class UserPublic implements Parcelable {
             return new UserPublic[size];
         }
     };
+
+    public String getDisplay_name() {
+        return display_name;
+    }
+
+    public Map<String, String> getExternal_urls() {
+        return external_urls;
+    }
+
+    public Followers getFollowers() {
+        return followers;
+    }
+
+    public String getHref() {
+        return href;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public List<Image> getImages() {
+        return images;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getUri() {
+        return uri;
+    }
+
+    @Override
+    public String toString() {
+        return "UserPublic{" +
+                "display_name='" + display_name + '\'' +
+                ", external_urls=" + external_urls +
+                ", followers=" + followers +
+                ", href='" + href + '\'' +
+                ", id='" + id + '\'' +
+                ", images=" + images +
+                ", type='" + type + '\'' +
+                ", uri='" + uri + '\'' +
+                '}';
+    }
 }
